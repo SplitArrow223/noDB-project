@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          <h1 className='hdr'>My Wishlist!</h1>
+          <h1 className='hdr'>My Wishlist!<i class="far fa-life-ring fa-spin fa-1x"></i></h1>
           
         </header>
         

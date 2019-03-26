@@ -20,15 +20,14 @@ class Vehicle extends Component {
         let {name, value} = e.target
         this.setState({[name]: value})
     }
-
     handleEditClick = () => {
-        this.setState({edit: true})
+       this.setState({edit: true})
     }
+   
     handleUpdateClick = () => {
         this.props.updateVehicle(this.state)
         this.setState({edit: false})
-    }
-
+    } 
 
 
 
